@@ -1,0 +1,31 @@
+nav {
+    background-color: #333; /* set the background color */
+    color: #fff; /* set the font color */
+  }
+  
+  ul {
+    list-style: none; /* remove the default bullet points */
+    margin: 0; /* remove the default margin */
+    padding: 0; /* remove the default padding */
+    display: flex; /* set the display to flex for horizontal alignment */
+  }
+  
+  li {
+    margin-right: 10px; /* add some spacing between the navbar items */
+  }
+  
+  li:last-child {
+    margin-right: 0; /* remove the margin for the last item */
+  }
+  
+  a {
+    display: block; /* make the links fill the entire list item */
+    padding: 10px; /* add some padding to the links */
+    color: #fff; /* set the font color */
+    text-decoration: none; /* remove the default underline */
+  }
+  
+  a:hover {
+    background-color: #555; /* change the background color on hover */
+  }
+  
